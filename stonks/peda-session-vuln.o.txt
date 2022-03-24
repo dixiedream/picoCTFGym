@@ -1,0 +1,6 @@
+break /home/ale/Downloads/picoCTF/stonks/vuln.c:67
+break /home/ale/Downloads/picoCTF/stonks/vuln.c:72
+break /home/ale/Downloads/picoCTF/stonks/vuln.c:74
+
+
+
