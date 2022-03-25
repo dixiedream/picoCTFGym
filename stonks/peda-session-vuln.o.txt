@@ -1,5 +1,0 @@
-break /home/ale/src/picoCTFGym/stonks/vuln.c:74
-disable $bpnum
-break /home/ale/src/picoCTFGym/stonks/vuln.c:85
-break *0x5555555554d5
-

@@ -1,3 +1,0 @@
-break /home/ale/src/picoCTFGym/stonks/vuln.c:74
-disable $bpnum
-
