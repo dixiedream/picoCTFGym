@@ -29,9 +29,9 @@ def encrypt(key_location):
 	start = key_location
 	stop = key_location + len(ui)
 
-	kf = open(KEY_FILE, "rb").read()
+	kf = open(KEY_FILE, "rb").read() # Open file with read permission as binary
 
-	if stop >= KEY_LEN:
+	if stop >= KEY_LEN: 
 		stop = stop % KEY_LEN
 		key = kf[start:] + kf[:stop]
 	else:
