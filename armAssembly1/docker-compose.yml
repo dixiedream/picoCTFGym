@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+  ubuntu:
+    build:
+      context: ./
+    working_dir: /app
+    command: qemu-aarch64-static ./chall 2 3
+    # 0000000001000100
